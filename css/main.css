@@ -1,1 +1,113 @@
-/* add custom styles */
+body {
+  padding: 50px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.navbar {
+  background: none;
+  border: none;
+  border-bottom: 1px solid;
+  width: 60%;
+  margin: auto;
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Alex Brush', cursive;
+  font-size: 100px;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+#nav-about {
+  background: none;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+.home-nav {
+  display: inline-block;
+  float: none;
+}
+
+.img-social {
+  height: 30px;
+  width: 30px;
+  margin: -20px;
+}
+
+h3, h4 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+}
+
+h4 {
+  padding-top: 40px;
+  text-align: left;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.nav-resume {
+  border: none;
+}
+
+.page-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.p-info {
+  text-align: center;
+}
+
+.project {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 1px solid;
+  margin-top: 100px;
+  float: left;
+  margin-left: 50px;
+  /*background-color: #5F9EA0;*/
+  opacity: 0.9;
+}
+
+.project-title {
+  text-align: center;
+  padding-top: 80px;
+  font-size: 35px;
+  text-transform: capitalize;
+}
+
+.link-info {
+  text-align: center;
+  padding-top: 115px;
+}
+
+.big-break {
+  margin-top: 56px;
+}
+
+/*img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}*//* add custom styles */
