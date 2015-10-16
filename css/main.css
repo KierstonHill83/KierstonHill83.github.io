@@ -38,9 +38,11 @@ h1 {
 }
 
 .img-social {
-  height: 30px;
-  width: 30px;
-  margin: -20px;
+  height: 80px;
+  width: 80px;
+  margin: auto;
+  padding: 4px;
+  margin-top: 30px;
 }
 
 h3, h4 {
@@ -79,35 +81,58 @@ hr {
 }
 
 .project {
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-  border: 1px solid;
   margin-top: 100px;
   float: left;
   margin-left: 50px;
-  /*background-color: #5F9EA0;*/
-  opacity: 0.9;
 }
 
 .project-title {
   text-align: center;
-  padding-top: 80px;
-  font-size: 35px;
+  padding-top: 25px;
+  font-size: 30px;
   text-transform: capitalize;
 }
 
 .link-info {
   text-align: center;
-  padding-top: 115px;
+  padding-top: 40px;
 }
 
 .big-break {
   margin-top: 56px;
 }
 
-/*img {
+img {
   height: 300px;
   width: 300px;
-  border-radius: 50%;
-}*//* add custom styles */
+  border: 1px solid;
+  border-radius: 5%;
+}
+
+.btn-default {
+  border: 1px solid;
+}
+
+.bio-page {
+  text-align: left;
+}
+
+.my-pic {
+  height: 311px;
+  width: 220px;
+  margin-left: -90px;
+  float: left;
+  margin-right: 20px;
+}
+
+.ter-pic {
+  width: 500px;
+  margin-right: -90px;
+  margin-left: 20px;
+  float: right;
+}
+
+.start-p {
+  font-family: 'Alex Brush', cursive;
+  font-size: 50px;
+}
