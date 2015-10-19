@@ -1,3 +1,4 @@
+
 var app = angular.module('myApp', ['ngRoute']);
 
 app.config(function($routeProvider) {
@@ -26,6 +27,18 @@ app.config(function($routeProvider) {
       controller: 'portfolioController',
       templateUrl: '/views/partials/portfolio.html',
       access:{restricted: false},
+    })
+    .when('/dot', {
+      templateUrl: '/views/partials/dotGame.html',
+      access:{restricted: false}
+    })
+    .when('/meal', {
+      templateUrl: '/views/partials/meal.html',
+      access:{restricted: false}
+    })
+    .when('/translator', {
+      templateUrl: '/views/partials/translator.html',
+      access:{restricted: false}
     })
     .otherwise({
       redirectTo: '/'

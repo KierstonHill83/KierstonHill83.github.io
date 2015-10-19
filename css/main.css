@@ -135,4 +135,30 @@ img {
 .start-p {
   font-family: 'Alex Brush', cursive;
   font-size: 50px;
+  float: left;
+  margin-bottom: -20px;
+  margin-top: -29px;
+  margin-right: 6px;
+}
+
+.game-info {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.project-header {
+  margin-top: -20px;
+}
+
+.single-img {
+  height: 400px;
+  width: 400px;
+  border: 1px solid;
+  border-radius: 5%;
+  margin-left: 75px;
+  margin-top: -40px;
+}
+
+.portfolio-btn {
+  /*margin: 30px;*/
 }
