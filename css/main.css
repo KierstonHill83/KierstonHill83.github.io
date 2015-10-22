@@ -141,11 +141,11 @@ img {
   margin-right: 6px;
 }
 
-.game-info {
+/*.game-info {
   text-align: center;
   margin-top: 40px;
   font-size: 18px;
-}
+}*/
 
 .project-header {
   margin-top: -20px;
@@ -161,14 +161,14 @@ img {
 }
 
 .btns {
-  margin-left: 280px;
+  margin-left: 30px;
   margin-top: 20px;
 }
 
 .game-technologies {
   margin-top: 20px;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .indent {
@@ -181,6 +181,23 @@ img {
 
 .more-info {
   margin-top: -10px;
+}
+
+.modal-title {
+  font-size: 80px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.game-info {
+  text-align: center;
+  font-size: 16px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.modal-image {
+  margin-left: 87px;
 }
 
 @-webkit-keyframes hvr-bob {
