@@ -174,3 +174,58 @@ img {
 .indent {
   text-indent: 20px;
 }
+
+.list-inline {
+  margin-left: 31px;
+}
+
+.more-info {
+  margin-top: -10px;
+}
+
+@-webkit-keyframes hvr-bob {
+  50% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+}
+      
+@keyframes hvr-bob {
+  50% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+}
+
+.portfolio-img {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;  
+  -webkit-transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+
+.portfolio-img:hover, .portfolio-img:focus, .portfolio-img:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+      
+.portfolio-img:hover:before, .portfolio-img:focus:before, .portfolio-img:active:before {
+  -webkit-animation-name: portfolio-img;
+  animation-name: portfolio-img;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
