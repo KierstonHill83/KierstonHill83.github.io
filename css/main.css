@@ -1,11 +1,15 @@
 body {
   padding: 50px;
   font-family: 'Quicksand', sans-serif;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 a {
   color: #00B7FF;
+}
+
+p {
+  font-size: 17px;
 }
 
 .navbar {
@@ -83,7 +87,7 @@ hr {
 .project {
   margin-top: 100px;
   float: left;
-  margin-left: 50px;
+  margin-left: 89px;
 }
 
 .project-title {
@@ -115,6 +119,7 @@ img {
 
 .bio-page {
   text-align: left;
+  font-size: 17px;
 }
 
 .my-pic {
