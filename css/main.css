@@ -1,0 +1,253 @@
+body {
+  padding: 50px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 17px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+p {
+  font-size: 17px;
+}
+
+.navbar {
+  background: none;
+  border: none;
+  border-bottom: 1px solid;
+  width: 60%;
+  margin: auto;
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Alex Brush', cursive;
+  font-size: 100px;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+#nav-about {
+  background: none;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+.home-nav {
+  display: inline-block;
+  float: none;
+}
+
+.img-social {
+  height: 80px;
+  width: 80px;
+  margin: auto;
+  padding: 4px;
+  margin-top: 30px;
+}
+
+h3, h4 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+}
+
+h4 {
+  padding-top: 40px;
+  text-align: left;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.nav-resume {
+  border: none;
+}
+
+.page-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.p-info {
+  text-align: center;
+}
+
+.project {
+  margin-top: 100px;
+  float: left;
+  margin-left: 89px;
+}
+
+.project-title {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.link-info {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.big-break {
+  margin-top: 56px;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  border: 1px solid;
+  border-radius: 5%;
+}
+
+.btn-default {
+  border: 1px solid;
+}
+
+.bio-page {
+  text-align: left;
+  font-size: 17px;
+}
+
+.my-pic {
+  height: 311px;
+  width: 220px;
+  margin-left: -90px;
+  float: left;
+  margin-right: 20px;
+}
+
+.ter-pic {
+  width: 500px;
+  margin-right: -90px;
+  margin-left: 20px;
+  float: right;
+}
+
+.start-p {
+  font-family: 'Alex Brush', cursive;
+  font-size: 50px;
+  float: left;
+  margin-bottom: -20px;
+  margin-top: -29px;
+  margin-right: 6px;
+}
+
+/*.game-info {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 18px;
+}*/
+
+.project-header {
+  margin-top: -20px;
+}
+
+.single-img {
+  height: 400px;
+  width: 460px;
+  border: 1px solid;
+  border-radius: 5%;
+  margin-left: 142px;
+  margin-top: -40px;
+}
+
+.btns {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.game-technologies {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.indent {
+  text-indent: 20px;
+}
+
+.list-inline {
+  margin-left: 31px;
+}
+
+.more-info {
+  margin-top: -10px;
+}
+
+.modal-title {
+  font-size: 80px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.game-info {
+  text-align: center;
+  font-size: 16px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.modal-image {
+  margin-left: 87px;
+}
+
+@-webkit-keyframes hvr-bob {
+  50% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+}
+      
+@keyframes hvr-bob {
+  50% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+}
+
+.portfolio-img {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;  
+  -webkit-transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+
+.portfolio-img:hover, .portfolio-img:focus, .portfolio-img:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+      
+.portfolio-img:hover:before, .portfolio-img:focus:before, .portfolio-img:active:before {
+  -webkit-animation-name: portfolio-img;
+  animation-name: portfolio-img;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
