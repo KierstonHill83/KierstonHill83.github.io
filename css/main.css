@@ -86,8 +86,14 @@ hr {
 
 .project {
   margin-top: 100px;
-  float: left;
-  margin-left: 55px;
+}
+
+.portfolio-img {
+  height: 360px;
+  width: 100%;
+  margin: auto;
+  border: 1px solid;
+  border-radius: 1%;
 }
 
 .project-title {
@@ -110,7 +116,7 @@ img {
   height: 315px;
   width: 315px;
   border: 1px solid;
-  border-radius: 5%;
+  border-radius: 1%;
 }
 
 .btn-default {
@@ -200,7 +206,7 @@ img {
 }
 
 .modal-image {
-  margin-left: 62px;
+  margin-left: 79px;
 }
 
 @-webkit-keyframes hvr-bob {
